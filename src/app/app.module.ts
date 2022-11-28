@@ -7,8 +7,8 @@ import { RecipeBookComponent } from './components/recipe-book/recipe-book.compon
 import { RecipeListComponent } from './components/recipe-book/recipe-list/recipe-list.component';
 import { RecipeDetailComponent } from './components/recipe-book/recipe-detail/recipe-detail.component';
 import { RecipeItemComponent } from './components/recipe-book/recipe-list/recipe-item/recipe-item.component';
-import { ShopingListComponent } from './shoping-list/shoping-list.component';
-import { ShopingEditComponent } from './shoping-list/shoping-edit/shoping-edit.component';
+import { ShopingListComponent } from './components/shoping-list/shoping-list.component';
+import { ShopingEditComponent } from './components/shoping-list/shoping-edit/shoping-edit.component';
 
 @NgModule({
   declarations: [
