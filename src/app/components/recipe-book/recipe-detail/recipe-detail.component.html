@@ -1,14 +1,19 @@
 <!-- ROW 1 -->
 <div class="row">
   <div class="col-xs-12">
-    <img src="" alt="LOADING IMG" class="img-responsive" />
+    <img
+      [src]="recipe.imagePath"
+      alt="{{ recipe.name }}"
+      class="img-responsive"
+      style="max-height: 300px"
+    />
   </div>
 </div>
 <!-- ROW 2 -->
 
 <div class="row">
   <div class="col-xs-12">
-    <h1>Recipe Name</h1>
+    <h1>{{ recipe.name }}</h1>
   </div>
 </div>
 <!-- ROW 3 -->
@@ -30,7 +35,7 @@
 <!-- ROW 4 -->
 
 <div class="row">
-  <div class="col-xs-12">Description</div>
+  <div class="col-xs-12">{{ recipe.description }}</div>
 </div>
 <!-- ROW 5 -->
 
